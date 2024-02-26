@@ -1,6 +1,19 @@
 h1 {
     color: rgb(255, 0, 0);
+    text-align: center;
 }
+
+
+h2{
+    background-color: aqua;
+    /* border-style:solid;*/
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
 
 .block {
     background-color: rgb(241, 221, 221);
@@ -17,9 +30,16 @@ h1 {
 }
 
 
+
 img {
     width: 50%;
     margin: auto;
-    display: block;
+    display: block
+}
 
+a {
+        text-decoration: none; 
+    }
+a:hover {
+    color:blueviolet;
 }
